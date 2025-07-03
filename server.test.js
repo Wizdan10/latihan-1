@@ -1,5 +1,4 @@
-const app = require('./server') // Link to your server file
-    .default // Link to your server file
+const app = require('./server')
 const supertest = require('supertest')
 const request = supertest(app)
 
